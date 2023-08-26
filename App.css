@@ -1,0 +1,97 @@
+/* App.css */
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .stopwatch {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  .time {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    display: block;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .start {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .start:hover {
+    background-color: #218838;
+  }
+  
+  .stop {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .stop:hover {
+    background-color: #c82333;
+  }
+  
+  .lap {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .lap:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }
+  
+  .lap:hover {
+    background-color: #0056b3;
+  }
+  
+  .reset {
+    background-color: #ffc107;
+    color: white;
+  }
+  
+  .reset:hover {
+    background-color: #d39e00;
+  }
+  
+  .lap-times {
+    text-align: left;
+    width: 100%;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
